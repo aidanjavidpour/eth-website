@@ -1,0 +1,1 @@
+for x in range(3602, 500000): print(x)
