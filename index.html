@@ -1,24 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
-        <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
-        <style>
-            h1 {
-                text-align: center;
-                font-family: Arial, Helvetica, sans-serif;
-                font-size: 40px;
-            }
-        </style>
+        <title>Audacity Pricing</title>
     </head>
     <body>
-        <h1>PyScript</h1>
-        <div id="request_status"></div>
-        <div id="request_text"></div>
-
-    <py-script>
-print("holy")
-
-    </py-script>
+        <div id = "box"></div>
+        <input type = "text" placeholder = "Enter tracker url" id = "url_input">
+        <button type = "button" onclick = "get_value();">Enter</button>
+        <script src = "./script.js"></script>
     </body>
 </html>
